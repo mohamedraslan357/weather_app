@@ -1,2 +1,2 @@
 # weather_app
-frontend API fullstact html css js 
+frontend API fullstact html css js app weatherapp 
