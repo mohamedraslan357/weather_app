@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poopins' ,sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content:space-around;
+
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid black;
+  height: calc(100vh - 150px);
+  width: 60vh;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  align-items: center;
+
+
+}
+
+
+
+.input-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box input{
+  align-items: center;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 20px;
+  font-size: 2rem;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.input-box button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 3px;
+}
+
+.weather{
+  display :flex ;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.box-img {
+  display: flex;
+  background: transparent;
+  margin-top: 30px;
+  width: 50%;
+
+}
+
+
+.tempe{
+  font-size: 5rem;
+
+}
+.city{
+  font-size: 4rem;
+
+}
+.tail-sec{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.humidity{
+  display: flex;
+  width: 50%;
+  justify-content: start;
+  padding-top: 20px;
+
+}
+.humidity img{
+  mix-blend-mode: multiply;
+  width: 30%;
+  height: 30%;
+  margin-left: 15px;
+}
+
+.humidity-details{
+  display:flex;
+  flex-direction: column;
+  margin-left: 15px;
+
+}
+
+.humidity-num{
+  font-size: 2.4rem;
+}
+
+
+.wind{
+  display: flex;
+  width: 50%;
+  justify-content: start;
+  padding-top: 20px;
+
+}
+.wind img {
+  mix-blend-mode: multiply;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+
+}
+
+.wind-details{
+  display:flex;
+  flex-direction: column;
+  margin-left: 15px;
+
+}
+
+.wind-num{
+  font-size: 2.4rem;
+}
+
+.error{
+
+  display: none;
+
+  margin-left: 10px;
+
+  margin-top: 10px;
+
+}
